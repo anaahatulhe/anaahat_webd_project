@@ -1,90 +1,70 @@
-# Udemy Clone using React
+# Getting Started with Create React App
 
-## Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Welcome to my the project.This project is done by me as a part of project for celebal technologies In this project we have given various tasks groupwise.This project is related to e learning website. I have developed a e lerning website with html css javascript.I have added various functionalities to it such as landing page,search and filter functionality.CRUD operation seperate account for user admin,login logout functionality. Api data management.New Course adding page.In this project we were guided by   mishal gupta sir and the experience was very nice. 
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- **User Registration and Authentication**: Users can sign up, log in, and manage their accounts. Authentication ensures secure access to user-specific features.
+### `npm start`
 
-- **Course Listings**: Users can view a wide range of available courses with details such as course title, instructor, rating, and price.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Course Search**: Users can search for courses based on keywords, categories, or instructors to find courses that match their interests.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Course Details**: Detailed course pages provide information about the course curriculum, instructor bio, user reviews, and other relevant details.
+### `npm test`
 
-- **Enrollment and Progress Tracking**: Users can enroll in courses they are interested in and track their progress throughout the course.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Instructor Dashboard**: Instructors have access to a dashboard where they can create, edit, and manage their courses, as well as track their earnings and student engagement.
+### `npm run build`
 
-- **Interactive Learning**: The platform provides features to facilitate interactive learning, such as quizzes, assignments, and discussion forums.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **User Reviews and Ratings**: Users can leave reviews and ratings for courses, helping others make informed decisions.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Payment Integration**: Secure payment gateways are implemented to handle course purchases.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Responsive Design**: The user interface is responsive, ensuring a seamless experience across various devices.
+### `npm run eject`
 
-## Technologies Used
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- **React**: The front-end of the application is built using React, providing a fast and dynamic user interface.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **Redux**: Redux is used for state management, enabling efficient data flow and interactions between components.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- **React Router**: React Router is employed for handling navigation and routing within the application.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- **Node.js**: Node.js is used to set up the back-end server, handle API requests, and manage the database.
+## Learn More
 
-- **Express.js**: Express.js is utilized as the server framework to create a robust and scalable back-end.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- **Payment API**: Integration with a secure payment API allows users to make course purchases.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Getting Started
+### Code Splitting
 
-1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Set up the MongoDB database and configure the connection in the server files.
-4. Run the back-end server using `npm run server`.
-5. Run the front-end application using `npm start`.
-6. Access the application in your browser at `http://localhost:3000`.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Contributing
+### Analyzing the Bundle Size
 
-Contributions to this project are welcome. If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## License
+### Making a Progressive Web App
 
-This project is licensed under the [MIT License](link-to-license).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Disclaimer
+### Advanced Configuration
 
-This project is for educational purposes only and is not affiliated with or endorsed by Udemy. It is a personal project created to showcase development skills with React and related technologies.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
